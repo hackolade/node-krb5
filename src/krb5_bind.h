@@ -7,7 +7,7 @@
 #include <unistd.h>
 #include <sys/types.h>
 #ifndef __MVS__
-#include <sys/syscall.h>
+// #include <sys/syscall.h>
 #endif
 
 Napi::Value _krb5_build_principal(const Napi::CallbackInfo& info);
