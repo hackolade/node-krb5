@@ -10,7 +10,7 @@
 #include <unistd.h>
 #include <sys/types.h>
 #ifndef __MVS__
-#include <sys/syscall.h>
+// #include <sys/syscall.h>
 #endif
 
 Napi::Value _generate_spnego_token(const Napi::CallbackInfo& info);
